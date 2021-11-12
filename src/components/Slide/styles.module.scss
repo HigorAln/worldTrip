@@ -1,0 +1,52 @@
+.swiperSlide{
+  height: 430px;
+  margin: 94px;
+
+  @media (max-width: 900px) {
+    margin:20px;
+    height: 250px;
+  }
+
+}
+
+.swiperSlide1,
+.swiperSlide2,
+.swiperSlide3,
+.swiperSlide4,
+.swiperSlide5{
+  width: 100%;
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor:pointer;
+}
+.swiperSlide1{
+  background-image: url('/assets/Europa.svg');
+}
+.swiperSlide2{
+  background-image: url('/assets/Africa.jpg');
+  background-size: 100% 140%;
+  background-position: bottom;
+}
+.swiperSlide3{
+  background-image: url('/assets/America.jpg');
+  background-size: 100% 150%;
+  background-position: bottom;
+}
+.swiperSlide4{
+  background-image: url('/assets/Asia.jpg');
+  background-size: 100% 130%;
+  background-position: bottom;
+}
+.swiperSlide5{
+  background-image: url('/assets/Oceania.jpg');
+  background-size: 100% 130%;
+  background-position: bottom;
+}
